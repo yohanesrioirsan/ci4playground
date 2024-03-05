@@ -11,7 +11,7 @@ Features :
 
 Built with PHP, Codeigniter 4, Bootstrap & Ajax.
 
-Special Thanks to <a href="https://www.youtube.com/@sandhikagalihWPU">Web Programming Unpas</a> youtube channel for the CI4 Tutorial. You can watch it <a href="https://www.youtube.com/@sandhikagalihWPU](https://www.youtube.com/watch?v=VckqV2wC1gs&list=PLFIM0718LjIUkkIq1Ub6B5dYNb6IlMvtc">here</a>.
+Special Thanks to <a href="https://www.youtube.com/@sandhikagalihWPU">Web Programming Unpas</a> youtube channel for the CI4 Tutorial.
 
 Screenshots : 
 ![image](https://github.com/yohanesrioirsan/ci4playground/assets/82473445/0fb83f28-f766-44e6-8dc8-96f7977c540a)
