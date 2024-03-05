@@ -11,7 +11,7 @@
                             <?php endforeach; ?>
                         </ul>
                     <?php endif; ?>
-                    <form action="/comics/update/<?= $comic['id']; ?>" method="post">
+                    <form id="myForm">
                         <?= csrf_field(); ?>
                         <input type="hidden" name="slug" value="<?= $comic['slug']; ?>">
                         <div class="mb-3">
@@ -34,7 +34,7 @@
                             <label for="cover" class="form-label">Cover</label>
                             <input type="text" class="form-control" id="cover" name="cover" value="<?= $comic['cover']; ?>">
                         </div>
-                        <button type="submit" class="btn btn-primary">Edit Data</button>
+                        <button type="submit" class="btn btn-primary" onclick="EditComicAlert('<?= $comic['id']; ?>', event)">Edit Data</button>
                     </form>
                 </div>
             </div>

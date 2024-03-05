@@ -11,7 +11,7 @@
                             <?php endforeach; ?>
                         </ul>
                     <?php endif; ?>
-                    <form action="/comics/save" method="post">
+                    <form id="myform">
                         <?= csrf_field(); ?>
                         <div class="mb-3">
                             <label for="title" class="form-label">Title</label>
