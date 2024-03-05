@@ -16,7 +16,7 @@ Special Thanks to <a href="https://www.youtube.com/@sandhikagalihWPU">Web Progra
 Screenshots : 
 ![image](https://github.com/yohanesrioirsan/ci4playground/assets/82473445/0fb83f28-f766-44e6-8dc8-96f7977c540a)
 
-![image](https://github.com/yohanesrioirsan/ci4playground/assets/82473445/f27756e7-8784-4830-8fa2-6b76c338b86d)
+![image](https://github.com/yohanesrioirsan/ci4playground/assets/82473445/a045e6a7-37a6-4ad6-b109-5a7a02928548)
 
 ![image](https://github.com/yohanesrioirsan/ci4playground/assets/82473445/1d9cd4f5-b014-4ca5-96a4-95b83df69c9e)
 
