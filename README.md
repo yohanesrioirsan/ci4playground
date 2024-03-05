@@ -29,7 +29,7 @@ Screenshots :
 # How to run
 *this project made in Codeigniter 4 v4.4.6 | Composer 2.7.1 | PHP 7.4.33*
 > git clone this project
-> open terminal and run "commposer update"
+> open terminal and run "composer update"
 
 > configure env files
   ```
@@ -49,6 +49,7 @@ Screenshots :
   users : username (varchar 225), password (varchar 225)
   comic : id (int | Primary key | Auto Increment), title (varchar 225), slug (varchar 225) , writer (varchar 225), author (varchar 225), synopsis (TEXT), cover (varchar 225), created_at (datetime), updated_at (datetime)
   ```
- 
+
+> open terminal and run "php spark serve"
 > project will be running on :8080
 
