@@ -27,3 +27,9 @@ $routes->get('comics/edit/(:any)', 'Comics::edit/$1');
 $routes->post('comics/update/(:any)', 'Comics::update/$1');
 $routes->get('comic/DeleteComics', 'Comics::DeleteComics');
 $routes->get('comics/DeleteComics/(:any)', 'Comics::DeleteComics/$1');
+
+// Dynamic Data
+$routes->get('dynamic-data', 'DynamicData::index');
+$routes->post('testink', 'DynamicData::add');
+
+
