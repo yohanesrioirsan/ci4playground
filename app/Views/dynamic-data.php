@@ -6,11 +6,12 @@
     <div class="row my-4">
         <div class="col-lg-10 mx-auto">
             <div class="card shadow">
-                <div class="card-header">
-                    <h4>Add Items</h4>
-                </div>
-                <div class="card-body p-4">
-                    <form id="addDynamicData" method="POST" action="<?= base_url() . 'testink' ?>">
+                <form id="addDynamicData" method="POST" action="<?= base_url() . 'testink' ?>">
+                    <div class="card-header d-flex justify-content-between">
+                        <h4>Add Items</h4>
+                        <button type="submit" class="btn btn-primary" id="add_btn">Add</button>
+                    </div>
+                    <div class="card-body p-4">
                         <div id="show_item">
                             <div class="row">
                                 <div class="col-md-4 mb-3">
@@ -22,17 +23,13 @@
                                 <div class="col-md-2 mb-3">
                                     <input type="number" name="product_qty[]" class="form-control" placeholder="Item Quantity" required>
                                 </div>
-                                <div class="col-md-2 mb-3">
-                                    <button class="btn btn-success add_item_btn d-grid">Add More</button>
+                                <div class="">
+                                    <button type="button" onclick="addData()" class="btn btn-secondary">Add Row</button>
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <!-- <input type="submit" value="Add" class="btn btn-primary w-25" id="add_btn"> -->
-                            <button type="submit" class="btn btn-primary" id="add_btn">Add</button>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

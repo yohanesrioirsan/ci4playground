@@ -47,4 +47,13 @@ class DynamicData extends BaseController
 
         echo dd($data);
     }
+
+    public function tambah()
+    {
+        $index = $this->request->getGet('index');
+        $data = [
+            'index' => $index
+        ];
+        echo view('add_form', $data);
+    }
 }
