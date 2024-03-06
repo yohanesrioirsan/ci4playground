@@ -9,7 +9,8 @@ class Login extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'Login Page'
+            'title' => 'Login Page',
+            'ajax' => ''
         ];
 
         helper(['form']);

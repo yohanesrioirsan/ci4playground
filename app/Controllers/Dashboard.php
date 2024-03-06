@@ -8,7 +8,8 @@ class Dashboard extends BaseController
     {
 
         $data = [
-            'title' => 'Dashboard'
+            'title' => 'Dashboard',
+            'ajax' => ''
         ];
 
         // $session = session();

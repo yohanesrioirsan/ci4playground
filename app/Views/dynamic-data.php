@@ -10,7 +10,7 @@
                     <h4>Add Items</h4>
                 </div>
                 <div class="card-body p-4">
-                    <form id="addDynamicData">
+                    <form id="addDynamicData" method="POST" action="<?= base_url() . 'testink' ?>">
                         <div id="show_item">
                             <div class="row">
                                 <div class="col-md-4 mb-3">
@@ -29,7 +29,7 @@
                         </div>
                         <div>
                             <!-- <input type="submit" value="Add" class="btn btn-primary w-25" id="add_btn"> -->
-                            <button type="submit" class="btn btn-primary" id="add_btn" onclick="submitData(), event">Add</button>
+                            <button type="submit" class="btn btn-primary" id="add_btn">Add</button>
                         </div>
                     </form>
                 </div>

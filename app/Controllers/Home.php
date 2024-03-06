@@ -8,7 +8,8 @@ class Home extends BaseController
     {
 
         $data = [
-            'title' => 'CodeIgniter Playground'
+            'title' => 'CodeIgniter Playground',
+            'ajax' => 'default'
         ];
 
         return view('index', $data);

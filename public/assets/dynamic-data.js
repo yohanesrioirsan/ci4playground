@@ -30,7 +30,6 @@ $(document).ready(function () {
   $("#add_form").submit(function(e) { 
         e.preventDefault();
 
-        $("#add_btn").val('Adding...');
         $.ajax({
             url: base_url + "testink",
             type: "POST",

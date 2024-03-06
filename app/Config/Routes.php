@@ -31,5 +31,3 @@ $routes->get('comics/DeleteComics/(:any)', 'Comics::DeleteComics/$1');
 // Dynamic Data
 $routes->get('dynamic-data', 'DynamicData::index');
 $routes->post('testink', 'DynamicData::add');
-
-
