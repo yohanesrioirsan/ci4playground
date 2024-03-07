@@ -27,7 +27,7 @@ Screenshots :
 ![image](https://github.com/yohanesrioirsan/ci4playground/assets/82473445/61208ea0-f566-489c-99ba-101104f99ca6)
 
 # How to run
-*this project made in Codeigniter 4 v4.4.6 | Composer 2.7.1 | PHP 7.4.33*
+*this project made with Codeigniter 4 v4.4.6 | Composer 2.7.1 | PHP 7.4.33*
 > git clone this project
 > open terminal and run "composer update"
 
