@@ -63,7 +63,7 @@ class Comics extends BaseController
         if (!$this->validate([
             'title' => [
                 'rules' => 'required|is_unique[comic.title]',
-                'errors' => [
+            'errors' => [
                     'required' => 'Title is needed! Cannot be empty.',
                     'is_unique' => 'Title cannot be the same with another.'
                 ]

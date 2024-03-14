@@ -43,9 +43,6 @@ class DynamicData extends BaseController
         }
 
         $this->dataModel->insertBatch($data);
-
-
-        echo dd($data);
     }
 
     public function tambah()

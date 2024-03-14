@@ -11,8 +11,7 @@
                             <?php endforeach; ?>
                         </ul>
                     <?php endif; ?>
-                    <form id="myform">
-                        <?= csrf_field(); ?>
+                    <form id="addComics">
                         <div class="mb-3">
                             <label for="title" class="form-label">Title</label>
                             <input type="text" class="form-control" id="title" name="title">
@@ -33,7 +32,7 @@
                             <label for="cover" class="form-label">Cover</label>
                             <input type="text" class="form-control" id="cover" name="cover">
                         </div>
-                        <button type="submit" class="btn btn-primary">Add Data</button>
+                        <button type="submit" class="btn btn-primary" onclick="SaveComics(event)">Add Data</button>
                     </form>
                 </div>
             </div>

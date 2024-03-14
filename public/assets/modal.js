@@ -72,8 +72,36 @@ function EditComicAlert(id, event) {
         url: base_url + "comics/update/" + id,
         type: "POST",
         data: formData,
-        success: function (response) {
+        success: function () {
           Swal.fire("Success", "Data Changed", "success").then(function () {
+            location.reload();
+          });
+        },
+      });
+    } else {
+      Swal.fire("Oops", "I think you've change your mind ;)", "warning");
+    }
+  });
+}
+
+function SaveComics(event) { 
+  event.preventDefault();
+  Swal.fire({
+    title: "Saving Data",
+    text: "This data will be saved in our database. Double check your input!",
+    icon: "warning",
+    showConfirmButton: true,
+    showDenyButton: true,
+  }).then(function (result) {
+    if (result.isConfirmed) {
+      let form = $("#addComics");
+      let formData = form.serialize();
+      $.ajax({
+        url: base_url + "comics/save",
+        type: "POST",
+        data: formData,
+        success: function () {
+          Swal.fire("Success", "Data Saved", "success").then(function () {
             location.reload();
           });
         },

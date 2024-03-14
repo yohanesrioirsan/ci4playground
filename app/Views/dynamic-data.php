@@ -9,7 +9,7 @@
                 <form id="addDynamicData" method="POST" action="<?= base_url() . 'testink' ?>">
                     <div class="card-header d-flex justify-content-between">
                         <h4>Add Items</h4>
-                        <button type="submit" class="btn btn-primary" id="add_btn">Add</button>
+                        <button type="submit" class="btn btn-primary" id="add_btn" onclick="confirmAddData(event)">Add</button>
                     </div>
                     <div class="card-body p-4">
                         <div id="show_item">
